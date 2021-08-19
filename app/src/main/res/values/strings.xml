@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_instructions">Instructions</string>
+    <string name="recipe_ingredients">Ingredients, separate with newline</string>
+    <integer name="recipe_rating">0</integer>
+    <string name="button_add">Add</string>
+    <string name="button_close">Close Recipe</string>
+    <string name="empty_input">Recipe not added because input is empty.</string>
+    <string name="button_cancelnewrec">Cancel</string>
+    <string name="button_editrating">Change rating</string>
+    <string name="button_exitactivity">Exit</string>
+    <string name="button_sort">Sort By Rating</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="button_sortname">Sort By Name</string>
+    <string name="button_listingredients">All Ingredients</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

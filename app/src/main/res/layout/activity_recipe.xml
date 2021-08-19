@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/text_recipe_name"
+        style="@style/text_view_style"
+        android:hint="@string/recipe_name"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/text_recipe_instructions"
+        style="@style/text_view_style"
+        android:hint="@string/recipe_instructions"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/text_recipe_ingredients"
+        style="@style/text_view_style"
+        android:hint="@string/recipe_ingredients"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/text_recipe_rating"
+        style="@style/text_view_style"
+        android:hint="@integer/recipe_rating"
+        android:inputType="textAutoComplete" />
+
+    <Button
+        android:id="@+id/button_editrating"
+        style="@style/button_style"
+        android:onClick="updateRating"
+        android:text="@string/button_editrating" />
+
+    <Button
+        android:id="@+id/button_close"
+        style="@style/button_style"
+        android:onClick="closeRecipe"
+        android:text="@string/button_close" />
+
+</LinearLayout>
